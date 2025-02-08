@@ -10,11 +10,12 @@ class HomeView extends GetView<HomeController> {
   @override
   Widget build(BuildContext context) {
     return Scaffold(
-      appBar: const CustomAppBar(title: 'HomeView'),
-      body: const Center(
-        child: Text(
-          'HomeView is working',
-          style: TextStyle(fontSize: 20),
+      appBar: const CustomAppBar(
+        title: 'HomeView',
+      ),
+      body: SingleChildScrollView(
+        child: Column(
+          children: [Text("data")],
         ),
       ),
     );
