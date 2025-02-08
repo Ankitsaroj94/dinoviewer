@@ -7,6 +7,8 @@ environment:
   sdk: ^3.6.0
 
 dependencies:
+  epub_view:
+    git: https://github.com/Ankitsaroj94/epub_view.git
   flutter:
     sdk: flutter
   get: ^4.6.6
