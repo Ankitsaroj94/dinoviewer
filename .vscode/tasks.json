@@ -1,0 +1,55 @@
+{
+	"version": "2.0.0",
+	"tasks": [
+		{
+			"type": "shell",
+			"command": "dart",
+			"args": [
+				"run",
+				"build_runner",
+				"watch",
+				"-d"
+			],
+			"problemMatcher": [
+				"$dart-build_runner"
+			],
+			"group": "build",
+			"label": "Build Runner",
+			"detail": ""
+		},
+		{
+			"type": "shell",
+			"command": "get",
+			"args": [
+				"generate",
+				"locales",
+				"assets/locales"
+			],
+			"problemMatcher": [],
+			"group": "build",
+			"label": "Locales",
+			"detail": ""
+		},
+		{
+			"type": "shell",
+			"command": "fluttergen",
+			"args": [],
+			"problemMatcher": [],
+			"group": "build",
+			"label": "Fluttergen",
+			"detail": ""
+		},
+		{
+			"type": "flutter",
+			"command": "flutter",
+			"args": [
+				"pub",
+				"get",
+			],
+			"problemMatcher": [],
+			"group": "build",
+			"label": "flutter pub get",
+			"detail": ""
+		}
+	]
+}
