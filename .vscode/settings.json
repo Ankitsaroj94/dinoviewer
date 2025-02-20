@@ -95,7 +95,7 @@
     "pubspec.lock"
   ],
   "cSpell.spellCheckOnlyWorkspaceFiles": true,
-  "dart.flutterSdkPath": ".fvm/versions/3.27.1",
+  "dart.flutterSdkPath": ".fvm/versions/3.29.0",
   "editor.codeActionsOnSave": {
     "source.fixAll": "always",
     "source.organizeImports": "always"
