@@ -1,0 +1,18 @@
+<svg width="200" height="200" viewBox="0 0 200 200" xmlns="http://www.w3.org/2000/svg" fill="none">
+  <!-- Background Circle -->
+  <circle cx="100" cy="100" r="90" fill="#4CAF50" stroke="#388E3C" stroke-width="5"/>
+
+  <!-- Dinosaur Head -->
+  <path d="M80 80 C70 60, 110 50, 120 70 C130 90, 100 110, 90 100 Z" fill="#FFF" stroke="#333" stroke-width="4"/>
+  <circle cx="110" cy="75" r="5" fill="#333"/>
+  <path d="M90 85 Q100 75, 110 85" stroke="#333" stroke-width="3" fill="none"/>
+
+  <!-- File Icon -->
+  <rect x="60" y="100" width="70" height="80" rx="8" fill="#FFF" stroke="#333" stroke-width="4"/>
+  <line x1="70" y1="120" x2="110" y2="120" stroke="#333" stroke-width="3"/>
+  <line x1="70" y1="135" x2="110" y2="135" stroke="#333" stroke-width="3"/>
+  <line x1="70" y1="150" x2="110" y2="150" stroke="#333" stroke-width="3"/>
+
+  <!-- App Name -->
+  <text x="100" y="190" font-size="20" font-weight="bold" text-anchor="middle" fill="#FFF">DinoViewer</text>
+</svg>
